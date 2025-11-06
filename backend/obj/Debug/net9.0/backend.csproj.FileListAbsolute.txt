@@ -31,3 +31,4 @@ D:\Brand_website\backend\obj\Debug\net9.0\refint\backend.dll
 D:\Brand_website\backend\obj\Debug\net9.0\backend.pdb
 D:\Brand_website\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
 D:\Brand_website\backend\obj\Debug\net9.0\ref\backend.dll
+D:\Brand_website\backend\obj\Debug\net9.0\backend.sourcelink.json

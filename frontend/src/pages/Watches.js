@@ -15,11 +15,11 @@ export default function Watches() {
   return (
     <div>
       <Header />
-      <main style={{ padding: 20 }}>
+      <main >
         <h2>Our Collection</h2>
-        <div style={{ display: "flex", gap: 20, flexWrap: "wrap" }}>
+        <div className='watch-grid'>
           {watches.map((w) => (
-            <div key={w.id} style={{ border: "1px solid #ddd", padding: 10, width: 240 }}>
+            <div key={w.id} className='watch-card'>
               <img src={`http://localhost:5160${w.imageUrl}`} alt={w.name} style={{ width: "100%" }} />
               <h3>{w.name}</h3>
               <p>PKR {w.price}</p>
